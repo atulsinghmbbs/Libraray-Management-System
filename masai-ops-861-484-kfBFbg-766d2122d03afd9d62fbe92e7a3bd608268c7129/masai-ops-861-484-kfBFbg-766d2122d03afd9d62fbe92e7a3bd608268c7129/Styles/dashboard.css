@@ -1,0 +1,40 @@
+ /* you can write your css code here */
+ /* Write all the code related to the table here  */
+
+table{ 
+    font-size: 20px; 
+    border-collapse: collapse; 
+    width: 60%; 
+    margin: auto; 
+    text-align: center;
+ } 
+ table td, 
+ table th { 
+    border: 1px solid red; 
+    padding: 8px; text-align: center;
+ }
+
+
+
+table tr:nth-last-child(even){ 
+    background-color: green;
+ } 
+
+
+table tr  :hover { 
+    background-color: red;
+ } 
+
+
+table th {
+ padding-top: 12px;
+ padding: bottom 12px; 
+ text-align: center;
+ background-color: yellow;
+ text-align: center;
+ 
+}
+
+*{
+    box-sizing: border-box;
+}
